@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,300&display=swap');
+
 div {
     max-width: 1060px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ div {
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -27,6 +30,14 @@ main section {
 
 body {
     background-color:burlywood;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Sofia, Sans, 'Times New Roman', Times, serif; 
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -40,6 +51,10 @@ nav a:hover {
 .book, .join {
     background-color: bisque;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,19 +67,24 @@ nav a:hover {
 
 .msg h2 {
     background-color: cornflowerblue;
+    font-family: Sofia, Sans, 'Times New Roman', Times, serif;
 }
 
 .msg p {
     background-color: aquamarine;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color:darkcyan;
+    margin-top: 200px;
 }
 
 footer a {
     background-color:bisque ;
     text-decoration: none;
+    padding: 25px 20px;
 }
 
 footer a:hover {
@@ -78,6 +98,7 @@ footer a:hover {
 
 .icon {
     width:80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -86,4 +107,32 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+}
+
+.home-title {
+    font-family: Sofia, Sans, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.river-card, .camping-card, .rapid-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
